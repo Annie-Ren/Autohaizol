@@ -1,0 +1,66 @@
+[ERROR] 2017-07-10 23:08:41,341-db.py:102 Cannot connect to MySQL on localhost
+Traceback (most recent call last):
+  File "C:\Users\annieren\PycharmProjects\autotest-master\src\utils\db.py", line 99, in __init__
+    self.reconnect()
+  File "C:\Users\annieren\PycharmProjects\autotest-master\src\utils\db.py", line 116, in reconnect
+    self._db = MySQLdb.connect(**self._db_args)
+  File "C:\Python27\lib\site-packages\MySQLdb\__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\MySQLdb\connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (1049, "Unknown database 'autotest'")
+[ERROR] 2017-07-10 23:45:10,299-db.py:102 Cannot connect to MySQL on localhost
+Traceback (most recent call last):
+  File "C:\Users\annieren\PycharmProjects\autotest-master\src\utils\db.py", line 99, in __init__
+    self.reconnect()
+  File "C:\Users\annieren\PycharmProjects\autotest-master\src\utils\db.py", line 116, in reconnect
+    self._db = MySQLdb.connect(**self._db_args)
+  File "C:\Python27\lib\site-packages\MySQLdb\__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\MySQLdb\connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (1049, "Unknown database 'autotest'")
+[ERROR] 2017-07-10 23:46:15,770-db.py:102 Cannot connect to MySQL on localhost
+Traceback (most recent call last):
+  File "C:\Users\annieren\PycharmProjects\autotest-master\src\utils\db.py", line 99, in __init__
+    self.reconnect()
+  File "C:\Users\annieren\PycharmProjects\autotest-master\src\utils\db.py", line 116, in reconnect
+    self._db = MySQLdb.connect(**self._db_args)
+  File "C:\Python27\lib\site-packages\MySQLdb\__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\MySQLdb\connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (1049, "Unknown database 'autotest'")
+[ERROR] 2017-07-10 23:46:54,288-db.py:102 Cannot connect to MySQL on localhost
+Traceback (most recent call last):
+  File "C:\Users\annieren\PycharmProjects\autotest-master\src\utils\db.py", line 99, in __init__
+    self.reconnect()
+  File "C:\Users\annieren\PycharmProjects\autotest-master\src\utils\db.py", line 116, in reconnect
+    self._db = MySQLdb.connect(**self._db_args)
+  File "C:\Python27\lib\site-packages\MySQLdb\__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\MySQLdb\connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (1049, "Unknown database 'autotest'")
+[ERROR] 2017-07-10 23:47:27,532-db.py:102 Cannot connect to MySQL on localhost
+Traceback (most recent call last):
+  File "C:\Users\annieren\PycharmProjects\autotest-master\src\utils\db.py", line 99, in __init__
+    self.reconnect()
+  File "C:\Users\annieren\PycharmProjects\autotest-master\src\utils\db.py", line 116, in reconnect
+    self._db = MySQLdb.connect(**self._db_args)
+  File "C:\Python27\lib\site-packages\MySQLdb\__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\MySQLdb\connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (1049, "Unknown database 'autotest'")
+[ERROR] 2017-07-11 00:06:45,588-db.py:102 Cannot connect to MySQL on localhost
+Traceback (most recent call last):
+  File "C:\Users\annieren\PycharmProjects\autotest-master\src\utils\db.py", line 99, in __init__
+    self.reconnect()
+  File "C:\Users\annieren\PycharmProjects\autotest-master\src\utils\db.py", line 116, in reconnect
+    self._db = MySQLdb.connect(**self._db_args)
+  File "C:\Python27\lib\site-packages\MySQLdb\__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\MySQLdb\connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (1049, "Unknown database 'autotest'")
