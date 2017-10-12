@@ -11,10 +11,10 @@ sys.path.insert(0,os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
 # db config here
-MYSQL_HOST = "localhost"
-MYSQL_USER = "root"
-MYSQL_PASSWD = "Asdf12345"
-MYSQL_DATABASE = "aototest"
+MYSQL_HOST = ""
+MYSQL_USER = ""
+MYSQL_PASSWD = ""
+MYSQL_DATABASE = ""
 
 
 # project status here
